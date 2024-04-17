@@ -5,6 +5,7 @@ import * as Styles from "./styles";
 
 import CartItem from "../cart-item/index";
 import { selectProductsTotalPrice } from '../../redux/cart/cart.selectors.js'
+
 const Cart = ({ isVisible, setIsVisible }) => {
   const handleEscapeAreaClick = () => setIsVisible(false);
 
